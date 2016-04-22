@@ -1,0 +1,2006 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+#add .path1, #add .path3 {
+	fill: #fff;
+}
+#add .path2 {
+	fill: #4074f7;
+}
+
+#air .path1, #air .path7 {
+	fill: #555;
+}
+#air .path2 {
+	fill: #414a55;
+}
+#air .path3 {
+	fill: #974d4c;
+}
+#air .path4 {
+	fill: #57ac6e;
+}
+#air .path5 {
+	fill: #dedeca;
+}
+#air .path6 {
+	fill: #3a4048;
+}
+#air .path8 {
+	fill: #735746;
+}
+#air .path9 {
+	fill: #f3c600;
+}
+
+#alert .path1 {
+	fill: #d63f31;
+}
+#alert .path2 {
+	fill: #565860;
+}
+
+#arrow-low .path1 {
+	fill: #555;
+}
+#arrow-low .path2 {
+	fill: #d72f44;
+}
+
+#arrow-up .path1 {
+	fill: #555;
+}
+#arrow-up .path2 {
+	fill: #5e75ff;
+}
+
+#balloon .path1 {
+	fill: #3b9f5d;
+}
+#balloon .path2 {
+	fill: #aa7e5f;
+}
+#balloon .path3 {
+	fill: #735746;
+}
+
+#bear .path1 {
+	fill: #735746;
+}
+#bear .path2 {
+	fill: #f3c600;
+}
+#bear .path3 {
+	fill: #2b2b2b;
+}
+
+#book .path1, #book .path5 {
+	fill: #555;
+}
+#book .path2 {
+	fill: #d72f44;
+}
+#book .path3 {
+	fill: #57ac6e;
+}
+#book .path4 {
+	fill: #565860;
+}
+#book .path6 {
+	fill: #735746;
+}
+#book .path7 {
+	fill: #f3c600;
+}
+
+#bookmark .path1 {
+	fill: #555;
+}
+#bookmark .path2 {
+	fill: #f3c600;
+}
+
+#books .path1 {
+	fill: #735647;
+}
+#books .path2 {
+	fill: #ccc;
+}
+#books .path3 {
+	fill: #eaeaea;
+}
+#books .path4 {
+	fill: #d72f44;
+}
+
+#brush .path1 {
+	fill: #555;
+}
+#brush .path2 {
+	fill: #735746;
+}
+#brush .path3 {
+	fill: #d72f44;
+}
+
+#brusher .path1 {
+	fill: #5e75ff;
+}
+#brusher .path2 {
+	fill: #555;
+}
+#brusher .path3 {
+	fill: #f3c600;
+}
+
+#burger .path1, #burger .path5 {
+	fill: #735746;
+}
+#burger .path2 {
+	fill: #cc3a52;
+}
+#burger .path3 {
+	fill: #f3c600;
+}
+#burger .path4 {
+	fill: #57ac6e;
+}
+
+#buterfly .path1 {
+	fill: #42a6dd;
+}
+#buterfly .path2 {
+	fill: #f5b401;
+}
+#buterfly .path3 {
+	fill: #d63f31;
+}
+#buterfly .path4 {
+	fill: #3b9f5d;
+}
+#buterfly .path5 {
+	fill: #444;
+}
+
+#calc .path1 {
+	fill: #5e75ff;
+}
+#calc .path2 {
+	fill: #555;
+}
+#calc .path3 {
+	fill: #565860;
+}
+#calc .path4 {
+	fill: #d72f44;
+}
+#calc .path5 {
+	fill: #fff;
+}
+
+#calcular .path1 {
+	fill: #f3c600;
+}
+#calcular .path2 {
+	fill: #555;
+}
+#calcular .path3 {
+	fill: #5e75ff;
+}
+#calcular .path4 {
+	fill: #57ac6e;
+}
+
+#calendar .path1, #calendar .path4 {
+	fill: #555;
+}
+#calendar .path2 {
+	fill: #f3c600;
+}
+#calendar .path3 {
+	fill: #ec6205;
+}
+
+#call .path1 {
+	fill: #099f5d;
+}
+#call .path2, #call .path3 {
+	fill: #565860;
+}
+
+#camcorder .path1 {
+	fill: #555;
+}
+#camcorder .path2 {
+	fill: #f3c600;
+}
+#camcorder .path3 {
+	fill: #d72f44;
+}
+#camcorder .path4 {
+	fill: #57ac6e;
+}
+
+#camera .path1 {
+	fill: #555;
+}
+#camera .path2 {
+	fill: #5e75ff;
+}
+#camera .path3 {
+	fill: #4c5665;
+}
+#camera .path4 {
+	fill: #fffffe;
+}
+
+#car .path1 {
+	fill: #57ac6e;
+}
+#car .path2 {
+	fill: #8941b1;
+}
+#car .path3, #car .path5 {
+	fill: #fff;
+}
+#car .path4 {
+	fill: #d72f44;
+}
+#car .path6 {
+	fill: #565860;
+}
+
+#card .path1 {
+	fill: #5e75ff;
+}
+#card .path2 {
+	fill: #555;
+}
+#card .path3 {
+	fill: #f3c600;
+}
+
+#cards .path1 {
+	fill: #f3c600;
+}
+#cards .path2, #cards .path4 {
+	fill: #d72f44;
+}
+#cards .path3 {
+	fill: #555;
+}
+
+#carrot .path1 {
+	fill: #57ac6e;
+}
+#carrot .path2 {
+	fill: #d72f44;
+}
+#carrot .path3 {
+	fill: #f3c600;
+}
+
+#case .path1 {
+	fill: #555;
+}
+#case .path2 {
+	fill: #565860;
+}
+#case .path3 {
+	fill: #57ac6e;
+}
+
+#chair .path1 {
+	fill: #000;
+}
+#chair .path2 {
+	fill: #d63f31;
+}
+#chair .path3 {
+	fill: #565860;
+}
+#chair .path4 {
+	fill: #f3c600;
+}
+
+#charge .path1, #charge .path4, #charge .path5 {
+	fill: #56545c;
+}
+#charge .path2 {
+	fill: #3b9f5d;
+}
+#charge .path3 {
+	fill: #aa7e5f;
+}
+
+#chart .path1 {
+	fill: #f3c600;
+}
+#chart .path2 {
+	fill: #555;
+}
+#chart .path3 {
+	fill: #5e75ff;
+}
+
+#chatle .path1, #chatle .path4 {
+	fill: #555;
+}
+#chatle .path2 {
+	fill: #8941b1;
+}
+#chatle .path3 {
+	fill: #f3c600;
+}
+#chatle .path5, #chatle .path6 {
+	fill: #57ac6e;
+}
+#chatle .path7, #chatle .path8 {
+	fill: #5e75ff;
+}
+#chatle .path9, #chatle .path10 {
+	fill: #e5415c;
+}
+
+#check .path1, #check .path3 {
+	fill: #fff;
+}
+#check .path2 {
+	fill: #3b9f5d;
+}
+
+#cheese .path1, #cheese .path3 {
+	fill: #f5b401;
+}
+#cheese .path2 {
+	fill: #f3c600;
+}
+
+#chemical .path1, #chemical .path3 {
+	fill: #555;
+}
+#chemical .path2 {
+	fill: #f3c600;
+}
+
+#chicken .path1 {
+	fill: #eaeaea;
+}
+#chicken .path2 {
+	fill: #735746;
+}
+
+#cinema-camera .path1 {
+	fill: #f3c600;
+}
+#cinema-camera .path2 {
+	fill: #555;
+}
+#cinema-camera .path3 {
+	fill: #d72f44;
+}
+#cinema-camera .path4 {
+	fill: #5e75ff;
+}
+
+#cinema .path1 {
+	fill: #555;
+}
+#cinema .path2 {
+	fill: #d72f44;
+}
+#cinema .path3 {
+	fill: #f3c600;
+}
+#cinema .path4 {
+	fill: #ffd300;
+}
+
+#clock .path1 {
+	fill: #d72f44;
+}
+#clock .path2 {
+	fill: #555;
+}
+
+#cofee .path1 {
+	fill: #5e75ff;
+}
+#cofee .path2 {
+	fill: #735746;
+}
+#cofee .path3 {
+	fill: #fff;
+}
+
+#color-box .path1 {
+	fill: #5e75ff;
+}
+#color-box .path2 {
+	fill: #99cb30;
+}
+#color-box .path3 {
+	fill: #57ac6e;
+}
+#color-box .path4 {
+	fill: #735746;
+}
+#color-box .path5 {
+	fill: #d72f44;
+}
+#color-box .path6 {
+	fill: #555;
+}
+
+#color-palette .path1 {
+	fill: #d72f44;
+}
+#color-palette .path2 {
+	fill: #5e75ff;
+}
+#color-palette .path3 {
+	fill: #638da0;
+}
+#color-palette .path4 {
+	fill: #555;
+}
+
+#color-rounder .path1 {
+	fill: #5e75ff;
+}
+#color-rounder .path2 {
+	fill: #57ac6e;
+}
+#color-rounder .path3, #color-rounder .path6 {
+	fill: #555;
+}
+#color-rounder .path4 {
+	fill: #d72f44;
+}
+#color-rounder .path5 {
+	fill: #f3c600;
+}
+
+#color .path1 {
+	fill: #555;
+}
+#color .path2 {
+	fill: #f3c600;
+}
+#color .path3 {
+	fill: #d72f44;
+}
+
+#compass .path1 {
+	fill: #735647;
+}
+#compass .path2 {
+	fill: #f3c600;
+}
+#compass .path3 {
+	fill: #555;
+}
+
+#cub .path1 {
+	fill: #555;
+}
+#cub .path2 {
+	fill: #8941b1;
+}
+#cub .path3 {
+	fill: #5e75ff;
+}
+
+#custom .path1 {
+	fill: #f5b401;
+}
+#custom .path2 {
+	fill: #735647;
+}
+
+#del .path1, #del .path3 {
+	fill: #fff;
+}
+#del .path2 {
+	fill: #d63f31;
+}
+
+#divider .path1 {
+	fill: #f3c600;
+}
+#divider .path2 {
+	fill: #555;
+}
+#divider .path3 {
+	fill: #5e75ff;
+}
+
+#doc .path1 {
+	fill: #f3c600;
+}
+#doc .path2 {
+	fill: #ae7a51;
+}
+#doc .path3 {
+	fill: #555;
+}
+
+#door .path1 {
+	fill: #d63f31;
+}
+#door .path2 {
+	fill: #555;
+}
+#door .path3 {
+	fill: #f3c600;
+}
+
+#electric .path1 {
+	fill: #57ac6e;
+}
+#electric .path2 {
+	fill: #d72f44;
+}
+#electric .path3 {
+	fill: #555;
+}
+#electric .path4 {
+	fill: #5e75ff;
+}
+
+#end-call .path1 {
+	fill: #099f5d;
+}
+#end-call .path2, #end-call .path3 {
+	fill: #565860;
+}
+#end-call .path4 {
+	fill: #d63f31;
+}
+
+#equipment .path1 {
+	fill: #d63f31;
+}
+#equipment .path2 {
+	fill: #565860;
+}
+#equipment .path3 {
+	fill: #3e7dfb;
+}
+#equipment .path4 {
+	fill: #3b9f5d;
+}
+#equipment .path5 {
+	fill: #808080;
+}
+#equipment .path6 {
+	fill: #6a6a6a;
+}
+
+#factory .path1, #factory .path3 {
+	fill: #565860;
+}
+#factory .path2 {
+	fill: #d72f44;
+}
+
+#fill-balloon .path1 {
+	fill: #d72f44;
+}
+#fill-balloon .path2 {
+	fill: #555;
+}
+#fill-balloon .path3 {
+	fill: #57ac6e;
+}
+#fill-balloon .path4 {
+	fill: #fff;
+}
+
+#fill .path1 {
+	fill: #4c5665;
+}
+#fill .path2 {
+	fill: #f3c600;
+}
+
+#filter .path1 {
+	fill: #555;
+}
+#filter .path2 {
+	fill: #8941b1;
+}
+#filter .path3 {
+	fill: #57ac6e;
+}
+#filter .path4 {
+	fill: #5e75ff;
+}
+
+#fire .path1 {
+	fill: #d63f31;
+}
+#fire .path2 {
+	fill: #f5b401;
+}
+#fire .path3 {
+	fill: #e9e331;
+}
+
+#flag .path1 {
+	fill: #555;
+}
+#flag .path2 {
+	fill: #57ac6e;
+}
+
+#flash-light .path1 {
+	fill: #565860;
+}
+#flash-light .path2 {
+	fill: #3b9f5d;
+}
+#flash-light .path3 {
+	fill: #f5b401;
+}
+
+#flashlight .path1, #flashlight .path4 {
+	fill: #3e7dfb;
+}
+#flashlight .path2 {
+	fill: #d63f31;
+}
+#flashlight .path3, #flashlight .path5 {
+	fill: #54545d;
+}
+
+#flower .path1 {
+	fill: #41ac73;
+}
+#flower .path2 {
+	fill: #735746;
+}
+#flower .path3, #flower .path5, #flower .path7 {
+	fill: #d72f44;
+}
+#flower .path4, #flower .path6, #flower .path8 {
+	fill: #f3c702;
+}
+
+#focus .path1, #focus .path3 {
+	fill: #555;
+}
+#focus .path2 {
+	fill: #57ac6e;
+}
+#focus .path4 {
+	fill: #d72f44;
+}
+
+#folder .path1 {
+	fill: #57ac6e;
+}
+#folder .path2 {
+	fill: #8941b1;
+}
+
+#fotbool .path1 {
+	fill: #ec6205;
+}
+#fotbool .path2 {
+	fill: #f3c600;
+}
+
+#fox .path1, #fox .path3, #fox .path5 {
+	fill: #d72f44;
+}
+#fox .path2, #fox .path4, #fox .path6 {
+	fill: #fefefd;
+}
+#fox .path7 {
+	fill: #353535;
+}
+#fox .path8 {
+	fill: #2b2b2b;
+}
+
+#full-charge .path1, #full-charge .path2, #full-charge .path3 {
+	fill: #3b9f5d;
+}
+
+#game .path1 {
+	fill: #555;
+}
+#game .path2 {
+	fill: #5e75ff;
+}
+#game .path3 {
+	fill: #d72f44;
+}
+#game .path4 {
+	fill: #57ac6e;
+}
+
+#glass .path1 {
+	fill: #d63f31;
+}
+#glass .path2 {
+	fill: rgba(62, 125, 251, 0.715);
+}
+#glass .path3 {
+	fill: #494745;
+}
+
+#gopro .path1 {
+	fill: #bfbfbf;
+}
+#gopro .path2 {
+	fill: #aaa;
+}
+#gopro .path3 {
+	fill: #d72f44;
+}
+#gopro .path4 {
+	fill: #6a6a6a;
+}
+#gopro .path5 {
+	fill: rgba(255, 255, 255, 0.15);
+}
+#gopro .path6 {
+	fill: #555;
+}
+
+#graph .path1 {
+	fill: #555;
+}
+#graph .path2 {
+	fill: #d72f44;
+}
+#graph .path3 {
+	fill: #5e75ff;
+}
+
+#gull .path1 {
+	fill: #f3c600;
+}
+#gull .path2 {
+	fill: #d72f44;
+}
+#gull .path3 {
+	fill: #fff;
+}
+#gull .path4 {
+	fill: #666;
+}
+#gull .path5 {
+	fill: #735746;
+}
+
+#happy .path1 {
+	fill: #d63f31;
+}
+#happy .path2 {
+	fill: #f5b401;
+}
+#happy .path3 {
+	fill: #fff;
+}
+
+#headphone .path1 {
+	fill: #8941b1;
+}
+#headphone .path2 {
+	fill: #57ac6e;
+}
+
+#helicopter .path1, #helicopter .path3, #helicopter .path4 {
+	fill: #4a4a4a;
+}
+#helicopter .path2 {
+	fill: #2196f3;
+}
+
+#help .path1 {
+	fill: #eaeaea;
+}
+#help .path2 {
+	fill: #565860;
+}
+#help .path3 {
+	fill: #f5b401;
+}
+
+#house .path1, #house .path4 {
+	fill: #555;
+}
+#house .path2 {
+	fill: #ffd300;
+}
+#house .path3 {
+	fill: #43a6dd;
+}
+
+#icecream .path1 {
+	fill: #735746;
+}
+#icecream .path2 {
+	fill: #f3c600;
+}
+#icecream .path3 {
+	fill: #57ac6e;
+}
+#icecream .path4 {
+	fill: #e5415c;
+}
+
+#image .path1 {
+	fill: #735647;
+}
+#image .path2 {
+	fill: #f3c600;
+}
+#image .path3 {
+	fill: #57ac6e;
+}
+#image .path4 {
+	fill: #d72f44;
+}
+
+#kinder-bike .path1 {
+	fill: #555;
+}
+#kinder-bike .path2 {
+	fill: #f3c600;
+}
+
+#kodak .path1 {
+	fill: #f3c600;
+}
+#kodak .path2 {
+	fill: #d72f44;
+}
+#kodak .path3 {
+	fill: #555;
+}
+
+#lamp .path1 {
+	fill: #57ac6e;
+}
+#lamp .path2 {
+	fill: #f3c600;
+}
+#lamp .path3 {
+	fill: #555;
+}
+
+#layers .path1 {
+	fill: #555;
+}
+#layers .path2 {
+	fill: #57ac6e;
+}
+#layers .path3 {
+	fill: #8941b1;
+}
+
+#lock .path1 {
+	fill: #555;
+}
+#lock .path2 {
+	fill: #4c5665;
+}
+#lock .path3 {
+	fill: #f3c600;
+}
+
+#low-charge .path1, #low-charge .path4, #low-charge .path5 {
+	fill: #56545c;
+}
+#low-charge .path2 {
+	fill: #d63f31;
+}
+#low-charge .path3 {
+	fill: #aa7e5f;
+}
+
+#magic .path1 {
+	fill: #7d4241;
+}
+#magic .path2 {
+	fill: #619af4;
+}
+#magic .path3 {
+	fill: #57ac6e;
+}
+#magic .path4 {
+	fill: #4c5665;
+}
+#magic .path5 {
+	fill: #d72f44;
+}
+#magic .path6 {
+	fill: #f3c600;
+}
+#magic .path7 {
+	fill: #5e75ff;
+}
+
+#mail .path1 {
+	fill: #555;
+}
+#mail .path2 {
+	fill: #ec6205;
+}
+
+#man .path1 {
+	fill: #d63f31;
+}
+#man .path2 {
+	fill: #f8ceaa;
+}
+#man .path3, #man .path4 {
+	fill: #565860;
+}
+
+#map .path1 {
+	fill: #3b9f5d;
+}
+#map .path2, #map .path4 {
+	fill: #fff;
+}
+#map .path3 {
+	fill: #56545c;
+}
+#map .path5 {
+	fill: #f5b401;
+}
+
+#metro .path1 {
+	fill: #5e75ff;
+}
+#metro .path2, #metro .path4 {
+	fill: #555;
+}
+#metro .path3 {
+	fill: #f3c600;
+}
+
+#mic .path1 {
+	fill: #57ac6e;
+}
+#mic .path2 {
+	fill: #735647;
+}
+
+#microphone .path1 {
+	fill: #f3c702;
+}
+#microphone .path2 {
+	fill: #555;
+}
+#microphone .path3 {
+	fill: #d72f44;
+}
+#microphone .path4 {
+	fill: #92672b;
+}
+
+#mixer .path1 {
+	fill: #eaeaea;
+}
+#mixer .path2 {
+	fill: #555;
+}
+#mixer .path3 {
+	fill: #d72f44;
+}
+#mixer .path4 {
+	fill: #fff;
+}
+#mixer .path5 {
+	fill: #57ac6e;
+}
+
+#money .path1 {
+	fill: #8941b1;
+}
+#money .path2 {
+	fill: #555;
+}
+#money .path3 {
+	fill: #d72f44;
+}
+#money .path4 {
+	fill: #5e75ff;
+}
+
+#monkie .path1, #monkie .path3, #monkie .path5, #monkie .path7 {
+	fill: #735746;
+}
+#monkie .path2, #monkie .path4, #monkie .path6 {
+	fill: #f3c600;
+}
+
+#moto .path1, #moto .path3 {
+	fill: #444;
+}
+#moto .path2 {
+	fill: #5e75ff;
+}
+#moto .path4 {
+	fill: #555;
+}
+
+#mountaine .path1, #mountaine .path3 {
+	fill: #3e7dfb;
+}
+#mountaine .path2 {
+	fill: #fff;
+}
+#mountaine .path4 {
+	fill: #3b9f5d;
+}
+
+#movie .path1 {
+	fill: #57ac6e;
+}
+#movie .path2 {
+	fill: #555;
+}
+
+#new-bookmark .path1 {
+	fill: #555;
+}
+#new-bookmark .path2 {
+	fill: #ec6205;
+}
+
+#new-charts .path1 {
+	fill: #565860;
+}
+#new-charts .path2 {
+	fill: #f3c600;
+}
+#new-charts .path3 {
+	fill: #d72f44;
+}
+
+#new-document .path1 {
+	fill: #555;
+}
+#new-document .path2 {
+	fill: #6a6a6a;
+}
+#new-document .path3 {
+	fill: #5e75ff;
+}
+#new-document .path4 {
+	fill: #57ac6e;
+}
+#new-document .path5 {
+	fill: #d72f44;
+}
+#new-document .path6 {
+	fill: #f0cb83;
+}
+
+#new-flash .path1 {
+	fill: #565860;
+}
+#new-flash .path2 {
+	fill: #885e3d;
+}
+#new-flash .path3 {
+	fill: #f5b401;
+}
+#new-flash .path4 {
+	fill: #d63f31;
+}
+
+#new-mail .path1, #new-mail .path2, #new-mail .path3 {
+	fill: #f5b401;
+}
+
+#new-maile .path1 {
+	fill: #f3c600;
+}
+#new-maile .path2 {
+	fill: #fff;
+}
+#new-maile .path3 {
+	fill: #555;
+}
+
+#new-scissor .path1 {
+	fill: #565860;
+}
+#new-scissor .path2 {
+	fill: #3b9f5d;
+}
+#new-scissor .path3 {
+	fill: #fff;
+}
+
+#new-shop .path1 {
+	fill: #8941b1;
+}
+#new-shop .path2 {
+	fill: #5e75ff;
+}
+#new-shop .path3 {
+	fill: #555;
+}
+
+#nikon .path1 {
+	fill: #4c5665;
+}
+#nikon .path2 {
+	fill: #555;
+}
+#nikon .path3 {
+	fill: #d72f44;
+}
+#nikon .path4 {
+	fill: #57ac6e;
+}
+#nikon .path5 {
+	fill: #5e75ff;
+}
+
+#note .path1 {
+	fill: #ec6205;
+}
+#note .path2 {
+	fill: #8941b1;
+}
+#note .path3 {
+	fill: #5e75ff;
+}
+#note .path4 {
+	fill: #555;
+}
+
+#old-calendar .path1 {
+	fill: #eaeaea;
+}
+#old-calendar .path2 {
+	fill: #4074f7;
+}
+#old-calendar .path3 {
+	fill: #565860;
+}
+#old-calendar .path4 {
+	fill: #dbdbdb;
+}
+#old-calendar .path5 {
+	fill: #d5d4d5;
+}
+
+#old-flash .path1, #old-flash .path4 {
+	fill: #735746;
+}
+#old-flash .path2 {
+	fill: #f3c600;
+}
+#old-flash .path3 {
+	fill: #d72f44;
+}
+
+#old-pc .path1 {
+	fill: #eaeaea;
+}
+#old-pc .path2 {
+	fill: #a9a5a5;
+}
+#old-pc .path3 {
+	fill: #5e75ff;
+}
+
+#open-mail .path1 {
+	fill: #f5b401;
+}
+#open-mail .path2 {
+	fill: #edae06;
+}
+#open-mail .path3 {
+	fill: #eaeaea;
+}
+#open-mail .path4 {
+	fill: #d5d4d5;
+}
+
+#pacman .path1 {
+	fill: #57ac6e;
+}
+#pacman .path2 {
+	fill: #555;
+}
+
+#palette .path1 {
+	fill: #555;
+}
+#palette .path2 {
+	fill: #d72f44;
+}
+#palette .path3 {
+	fill: #57ac6e;
+}
+#palette .path4 {
+	fill: #5e75ff;
+}
+#palette .path5 {
+	fill: #8941b1;
+}
+#palette .path6 {
+	fill: #f3c600;
+}
+#palette .path7 {
+	fill: #735746;
+}
+
+#parrot .path1 {
+	fill: #57ac6e;
+}
+#parrot .path2 {
+	fill: #ffd300;
+}
+#parrot .path3 {
+	fill: #f0f0f0;
+}
+#parrot .path4 {
+	fill: #444;
+}
+#parrot .path5 {
+	fill: #f3c600;
+}
+
+#pc .path1 {
+	fill: #5e75ff;
+}
+#pc .path2 {
+	fill: #555;
+}
+
+#pencil .path1 {
+	fill: #555;
+}
+#pencil .path2 {
+	fill: #5e75ff;
+}
+#pencil .path3 {
+	fill: #d72f44;
+}
+#pencil .path4 {
+	fill: #f3c600;
+}
+
+#pharma .path1 {
+	fill: #555;
+}
+#pharma .path2 {
+	fill: #5e75ff;
+}
+#pharma .path3 {
+	fill: #8941b1;
+}
+
+#phone .path1 {
+	fill: #d72f44;
+}
+#phone .path2 {
+	fill: #555;
+}
+#phone .path3 {
+	fill: #f3c600;
+}
+
+#photocam .path1 {
+	fill: #555;
+}
+#photocam .path2 {
+	fill: #3b9f5d;
+}
+
+#photos .path1 {
+	fill: #5e75ff;
+}
+#photos .path2 {
+	fill: #d72f44;
+}
+#photos .path3 {
+	fill: #555;
+}
+#photos .path4 {
+	fill: #f3c600;
+}
+
+#picasa .path1, #picasa .path4, #picasa .path6 {
+	fill: #555;
+}
+#picasa .path2 {
+	fill: #5e75ff;
+}
+#picasa .path3 {
+	fill: #d72f44;
+}
+#picasa .path5 {
+	fill: #735746;
+}
+#picasa .path7 {
+	fill: #f3c600;
+}
+
+#picker .path1 {
+	fill: #d72f44;
+}
+#picker .path2 {
+	fill: #555;
+}
+
+#picture .path1 {
+	fill: #555;
+}
+#picture .path2 {
+	fill: #57ac6e;
+}
+#picture .path3 {
+	fill: #8941b1;
+}
+#picture .path4 {
+	fill: #f3c600;
+}
+
+#pigg .path1, #pigg .path3, #pigg .path5, #pigg .path7 {
+	fill: #de8e4f;
+}
+#pigg .path2, #pigg .path4, #pigg .path6, #pigg .path8 {
+	fill: #e4a472;
+}
+#pigg .path9 {
+	fill: #333;
+}
+
+#pin .path1 {
+	fill: #735647;
+}
+#pin .path2 {
+	fill: #555;
+}
+
+#pink-panter .path1, #pink-panter .path3 {
+	fill: #cc3a52;
+}
+#pink-panter .path2, #pink-panter .path4, #pink-panter .path6 {
+	fill: #404040;
+}
+#pink-panter .path5 {
+	fill: #e5415c;
+}
+#pink-panter .path7, #pink-panter .path9 {
+	fill: #2b2b2b;
+}
+#pink-panter .path8, #pink-panter .path10 {
+	fill: #fff;
+}
+
+#planet .path1 {
+	fill: #d72f44;
+}
+#planet .path2 {
+	fill: #735746;
+}
+#planet .path3 {
+	fill: #f3c600;
+}
+
+#preloader .path1, #preloader .path3, #preloader .path6 {
+	fill: #555;
+}
+#preloader .path2, #preloader .path5 {
+	fill: #5e75ff;
+}
+#preloader .path4, #preloader .path7 {
+	fill: #d72f44;
+}
+#preloader .path8 {
+	fill: #f3c700;
+}
+
+#print .path1, #print .path4 {
+	fill: #aaa;
+}
+#print .path2 {
+	fill: #565860;
+}
+#print .path3 {
+	fill: #3b9f5d;
+}
+
+#profile .path1 {
+	fill: #f3c600;
+}
+#profile .path2, #profile .path4 {
+	fill: #565860;
+}
+#profile .path3 {
+	fill: #aa7e5f;
+}
+
+#purse .path1, #purse .path3 {
+	fill: #555;
+}
+#purse .path2 {
+	fill: #d72f44;
+}
+
+#question .path1 {
+	fill: #d72f44;
+}
+#question .path2 {
+	fill: #f3c600;
+}
+
+#r2d2 .path1, #r2d2 .path3 {
+	fill: #d5d5d5;
+}
+#r2d2 .path2 {
+	fill: #d72f44;
+}
+#r2d2 .path4, #r2d2 .path6 {
+	fill: #555;
+}
+#r2d2 .path5 {
+	fill: #5e75ff;
+}
+
+#radio .path1 {
+	fill: #d72f44;
+}
+#radio .path2 {
+	fill: #555;
+}
+#radio .path3 {
+	fill: #57ac6e;
+}
+#radio .path4 {
+	fill: #f3c700;
+}
+
+#red-flower .path1 {
+	fill: #555;
+}
+#red-flower .path2 {
+	fill: #d72f44;
+}
+#red-flower .path3 {
+	fill: #f3c702;
+}
+
+#robot .path1, #robot .path4 {
+	fill: #555;
+}
+#robot .path2 {
+	fill: #5e75ff;
+}
+#robot .path3 {
+	fill: #f3c600;
+}
+#robot .path5 {
+	fill: #1b324e;
+}
+#robot .path6 {
+	fill: #57ac6e;
+}
+#robot .path7, #robot .path9 {
+	fill: #d72f44;
+}
+#robot .path8 {
+	fill: #8941b1;
+}
+
+#rocket .path1 {
+	fill: #555;
+}
+#rocket .path2 {
+	fill: #d72f44;
+}
+#rocket .path3 {
+	fill: #57ac6e;
+}
+#rocket .path4 {
+	fill: #f3c600;
+}
+
+#rule .path1 {
+	fill: #565860;
+}
+#rule .path2 {
+	fill: #5e75ff;
+}
+#rule .path3 {
+	fill: #735647;
+}
+
+#ruler .path1 {
+	fill: #555;
+}
+#ruler .path2 {
+	fill: #99cb31;
+}
+#ruler .path3, #ruler .path5, #ruler .path7 {
+	fill: #f3c700;
+}
+#ruler .path4 {
+	fill: #5e75ff;
+}
+#ruler .path6 {
+	fill: #d72f44;
+}
+
+#rupor .path1 {
+	fill: #555;
+}
+#rupor .path2 {
+	fill: #99cb31;
+}
+#rupor .path3 {
+	fill: #5e75ff;
+}
+
+#sailing-ship .path1, #sailing-ship .path4 {
+	fill: #666;
+}
+#sailing-ship .path2 {
+	fill: #fff;
+}
+#sailing-ship .path3 {
+	fill: #be272d;
+}
+
+#scissor .path1 {
+	fill: #555;
+}
+#scissor .path2 {
+	fill: #f3c600;
+}
+
+#search .path1 {
+	fill: #555;
+}
+#search .path2 {
+	fill: #8941b1;
+}
+
+#security .path1 {
+	fill: #9d9d9d;
+}
+#security .path2 {
+	fill: #d3d3d3;
+}
+#security .path3 {
+	fill: #e6e6e6;
+}
+#security .path4 {
+	fill: #555;
+}
+#security .path5 {
+	fill: #5b5b5f;
+}
+#security .path6 {
+	fill: #ecedef;
+}
+
+#settings .path1 {
+	fill: #555;
+}
+#settings .path2 {
+	fill: #f3c600;
+}
+#settings .path3 {
+	fill: #735746;
+}
+
+#ship .path1, #ship .path3, #ship .path5 {
+	fill: #555;
+}
+#ship .path2, #ship .path4 {
+	fill: #fff;
+}
+#ship .path6 {
+	fill: #5e75ff;
+}
+
+#shop .path1 {
+	fill: #57ac6e;
+}
+#shop .path2 {
+	fill: #555;
+}
+
+#slipper .path1 {
+	fill: #555;
+}
+#slipper .path2 {
+	fill: #f3c600;
+}
+
+#smart-timer .path1 {
+	fill: #57ac6e;
+}
+#smart-timer .path2, #smart-timer .path5 {
+	fill: #8941b1;
+}
+#smart-timer .path3 {
+	fill: #555;
+}
+#smart-timer .path4 {
+	fill: #f3c600;
+}
+#smart-timer .path6 {
+	fill: #735746;
+}
+
+#som .path1 {
+	fill: #555;
+}
+#som .path2 {
+	fill: #f3c702;
+}
+#som .path3 {
+	fill: #d72f44;
+}
+
+#sound-off .path1 {
+	fill: #d63f31;
+}
+#sound-off .path2 {
+	fill: #ac3e33;
+}
+#sound-off .path3 {
+	fill: #56545c;
+}
+
+#sound-on .path1 {
+	fill: #3e7dfb;
+}
+#sound-on .path2 {
+	fill: #565860;
+}
+#sound-on .path3 {
+	fill: #3b70da;
+}
+
+#sound .path1 {
+	fill: #555;
+}
+#sound .path2 {
+	fill: #d72f44;
+}
+#sound .path3 {
+	fill: #5e75ff;
+}
+#sound .path4 {
+	fill: #ffd300;
+}
+#sound .path5 {
+	fill: #f3c600;
+}
+
+#sport .path1 {
+	fill: #619af4;
+}
+#sport .path2, #sport .path6 {
+	fill: #555;
+}
+#sport .path3 {
+	fill: #444;
+}
+#sport .path4 {
+	fill: #5e75ff;
+}
+#sport .path5 {
+	fill: #f3c600;
+}
+
+#stop .path1 {
+	fill: #735647;
+}
+#stop .path2 {
+	fill: #f3c600;
+}
+#stop .path3 {
+	fill: #555;
+}
+
+#submarine .path1, #submarine .path4 {
+	fill: #555;
+}
+#submarine .path2 {
+	fill: #735647;
+}
+#submarine .path3 {
+	fill: #57ac6e;
+}
+#submarine .path5, #submarine .path7 {
+	fill: #fff;
+}
+#submarine .path6 {
+	fill: #f5f5f5;
+}
+
+#swedish .path1 {
+	fill: #565860;
+}
+#swedish .path2, #swedish .path4 {
+	fill: #fff;
+}
+#swedish .path3 {
+	fill: #d63f31;
+}
+
+#talk .path1 {
+	fill: #d72f44;
+}
+#talk .path2 {
+	fill: #565860;
+}
+
+#tank .path1 {
+	fill: #489eca;
+}
+#tank .path2 {
+	fill: #ed4d4d;
+}
+#tank .path3 {
+	fill: #e0e3e5;
+}
+#tank .path4 {
+	fill: #424652;
+}
+
+#target .path1 {
+	fill: #f5b401;
+}
+#target .path2 {
+	fill: #735647;
+}
+#target .path3 {
+	fill: #fff;
+}
+#target .path4 {
+	fill: #d63f31;
+}
+#target .path5 {
+	fill: #565860;
+}
+#target .path6 {
+	fill: #3b9f5d;
+}
+
+#tasks .path1 {
+	fill: #57ac6e;
+}
+#tasks .path2 {
+	fill: #555;
+}
+#tasks .path3 {
+	fill: #ae7a51;
+}
+#tasks .path4 {
+	fill: #5e75ff;
+}
+
+#tea .path1 {
+	fill: #735746;
+}
+#tea .path2 {
+	fill: #d72f44;
+}
+
+#timer .path1 {
+	fill: #fffffe;
+}
+#timer .path2 {
+	fill: #ec6206;
+}
+#timer .path3 {
+	fill: #555;
+}
+
+#toad .path1 {
+	fill: #57ac6e;
+}
+#toad .path2 {
+	fill: #7bcb91;
+}
+#toad .path3 {
+	fill: #96efae;
+}
+#toad .path4 {
+	fill: #000;
+}
+#toad .path5 {
+	fill: #498359;
+}
+
+#tools .path1 {
+	fill: #555;
+}
+#tools .path2 {
+	fill: #57ac6e;
+}
+#tools .path3 {
+	fill: #4c5665;
+}
+#tools .path4 {
+	fill: #f3c600;
+}
+#tools .path5 {
+	fill: #61493c;
+}
+#tools .path6 {
+	fill: #735746;
+}
+#tools .path7 {
+	fill: #d72f44;
+}
+
+#toster .path1 {
+	fill: #57ac6e;
+}
+#toster .path2 {
+	fill: #555;
+}
+
+#traffic-cone .path1, #traffic-cone .path3 {
+	fill: #555;
+}
+#traffic-cone .path2 {
+	fill: #57ac6e;
+}
+
+#tv .path1 {
+	fill: #555;
+}
+#tv .path2 {
+	fill: #5e75ff;
+}
+#tv .path3 {
+	fill: #d72f44;
+}
+#tv .path4 {
+	fill: #ffd300;
+}
+#tv .path5 {
+	fill: #f3c700;
+}
+
+#type .path1 {
+	fill: #eaeaea;
+}
+#type .path2 {
+	fill: #d72f44;
+}
+#type .path3 {
+	fill: #aaa;
+}
+
+#ui .path1 {
+	fill: #57ac6e;
+}
+#ui .path2 {
+	fill: #5e75ff;
+}
+#ui .path3 {
+	fill: #fff;
+}
+#ui .path4 {
+	fill: #555;
+}
+
+#umbrella .path1, #umbrella .path3 {
+	fill: #555;
+}
+#umbrella .path2 {
+	fill: #5e75ff;
+}
+#umbrella .path4 {
+	fill: #57ac6e;
+}
+
+#unlock .path1 {
+	fill: #555;
+}
+#unlock .path2 {
+	fill: #f3c600;
+}
+
+#vinile-one .path1 {
+	fill: #444;
+}
+#vinile-one .path2 {
+	fill: #57ac6e;
+}
+
+#vinyle .path1 {
+	fill: #eaeaea;
+}
+#vinyle .path2, #vinyle .path4 {
+	fill: #56545c;
+}
+#vinyle .path3 {
+	fill: #f5b401;
+}
+
+#water-melon .path1 {
+	fill: #e5415c;
+}
+#water-melon .path2 {
+	fill: #57ac6e;
+}
+
+#weather-dark .path1 {
+	fill: #565860;
+}
+#weather-dark .path2 {
+	fill: #4074f7;
+}
+
+#weather .path1 {
+	fill: #f3c600;
+}
+#weather .path2 {
+	fill: #555;
+}
+
+#whale .path1 {
+	fill: #5e75ff;
+}
+#whale .path2 {
+	fill: #555;
+}
+#whale .path3 {
+	fill: #bfbfbf;
+}
+
+#woman .path1, #woman .path4 {
+	fill: #565860;
+}
+#woman .path2 {
+	fill: #4074f7;
+}
+#woman .path3 {
+	fill: #ffceaa;
+}
+
+#zoom-in .path1, #zoom-in .path3 {
+	fill: #555;
+}
+#zoom-in .path2 {
+	fill: #57ac6e;
+}
+#zoom-in .path4 {
+	fill: #5e75ff;
+}
+
+#zoom-out .path1 {
+	fill: #f3c600;
+}
+#zoom-out .path2 {
+	fill: #555;
+}
+#zoom-out .path3 {
+	fill: #d73163;
+}
